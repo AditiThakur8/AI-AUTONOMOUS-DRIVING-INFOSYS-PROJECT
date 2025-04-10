@@ -1,0 +1,5 @@
+train: /content/dataset2/train/images
+val: /content/dataset2/valid/images
+test: /content/dataset2/test/images
+nc: 6
+names: ['bike', 'bus', 'car', 'traffic_sign', 'traffic_light', 'truck']

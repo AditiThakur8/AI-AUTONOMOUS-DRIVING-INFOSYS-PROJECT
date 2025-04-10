@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['bus']
+
+roboflow:
+  workspace: bobba-wqufa
+  project: bus-yjjft
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bobba-wqufa/bus-yjjft/dataset/1

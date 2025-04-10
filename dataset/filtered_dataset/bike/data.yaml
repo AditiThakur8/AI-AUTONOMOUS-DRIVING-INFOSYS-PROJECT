@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['bike', 'motor']
+
+roboflow:
+  workspace: tina-lin
+  project: test-eekzm
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tina-lin/test-eekzm/dataset/2

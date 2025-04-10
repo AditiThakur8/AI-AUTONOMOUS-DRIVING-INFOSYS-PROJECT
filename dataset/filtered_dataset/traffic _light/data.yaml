@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['green-traffic-light', 'green-traffic-lights', 'red-traffic-lights', 'traffic-lights']
+
+roboflow:
+  workspace: yolov801
+  project: trafik_isiklari-g02mg
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/yolov801/trafik_isiklari-g02mg/dataset/1
